@@ -21,6 +21,7 @@
 		CD1DBFF218AD10CB00CDF9CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1DBFD418AD10CB00CDF9CE /* UIKit.framework */; };
 		CD1DBFFA18AD10CB00CDF9CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD1DBFF818AD10CB00CDF9CE /* InfoPlist.strings */; };
 		CD1DBFFC18AD10CB00CDF9CE /* BMITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1DBFFB18AD10CB00CDF9CE /* BMITests.m */; };
+		CDA5321518BD15E200AEDC3E /* CaculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA5321418BD15E200AEDC3E /* CaculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CD1DBFF718AD10CB00CDF9CE /* BMITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BMITests-Info.plist"; sourceTree = "<group>"; };
 		CD1DBFF918AD10CB00CDF9CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD1DBFFB18AD10CB00CDF9CE /* BMITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMITests.m; sourceTree = "<group>"; };
+		CDA5321318BD15E200AEDC3E /* CaculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculatorBrain.h; sourceTree = "<group>"; };
+		CDA5321418BD15E200AEDC3E /* CaculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		CD1DBFD618AD10CB00CDF9CE /* BMI */ = {
 			isa = PBXGroup;
 			children = (
+				CDA5321318BD15E200AEDC3E /* CaculatorBrain.h */,
+				CDA5321418BD15E200AEDC3E /* CaculatorBrain.m */,
 				CD1DBFDF18AD10CB00CDF9CE /* rexAppDelegate.h */,
 				CD1DBFE018AD10CB00CDF9CE /* rexAppDelegate.m */,
 				CD1DBFE218AD10CB00CDF9CE /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD1DBFE118AD10CB00CDF9CE /* rexAppDelegate.m in Sources */,
+				CDA5321518BD15E200AEDC3E /* CaculatorBrain.m in Sources */,
 				CD1DBFDD18AD10CB00CDF9CE /* main.m in Sources */,
 				CD1DBFE718AD10CB00CDF9CE /* rexViewController.m in Sources */,
 			);
@@ -461,6 +467,7 @@
 				CD1DC00118AD10CB00CDF9CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD1DC00218AD10CB00CDF9CE /* Build configuration list for PBXNativeTarget "BMITests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				CD1DC00418AD10CB00CDF9CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
